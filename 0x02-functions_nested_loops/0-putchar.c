@@ -2,7 +2,7 @@
 /**
  *  main - print _putchar
  *  is written by Diana Wambua
- *  Return : 0 on success
+ * Return: Always 0 (Success)
  */
 
 int main(void)

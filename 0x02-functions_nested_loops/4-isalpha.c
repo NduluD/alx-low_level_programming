@@ -1,0 +1,19 @@
+#include "main.h"
+#include <ctype.h>
+/**
+ * _isalpha -  checks for alphabetic character
+ *@c: character to check
+ * Return: 1 for alphabetic character or 0 for any other character
+ */
+
+int _isalpha(int c)
+{
+	if (isalpha(c) != 0)
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
+}

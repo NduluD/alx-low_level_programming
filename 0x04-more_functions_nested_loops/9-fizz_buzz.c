@@ -31,6 +31,8 @@ int main(void)
 		if (i == 100)
 			continue;
 		printf("\n");
+
+		i++;
 	}
 	printf("\n");
 	return (0);

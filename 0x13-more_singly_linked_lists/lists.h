@@ -5,15 +5,15 @@
 
 /**
  * struct listint_s - singly linked list
- * @m: integer
- * @next: a pointer to the next node
+ * @n: integer
+ * @next: points to the next node
  *
  * Description: singly linked list node structure
- * my 0x13. C project
+ *
  */
 typedef struct listint_s
 {
-	int m;
+	int n;
 	struct listint_s *next;
 } listint_t;
 
